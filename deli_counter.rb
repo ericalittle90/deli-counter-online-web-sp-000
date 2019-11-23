@@ -11,4 +11,6 @@ end
 end
 
 def take_a_number(array, name)
+  array.push(name)
   puts "Welcome, #{name}. You are #{index+1} in line."
+end
